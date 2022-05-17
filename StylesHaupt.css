@@ -1,0 +1,93 @@
+body{
+    margin: 0px, 0px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 200px 200px 200px 200px 200px 300px 300px 300px 300px 300px 300px; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "Header Header"
+    "Themen Themen"
+    "Themen Themen"
+    "Themen Themen"
+    "Themen Themen"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic";
+     
+}
+
+.HauptseiteHead{
+    grid-area: Header;
+    display: grid;
+    background-color: red;
+
+}
+
+.Themen{
+
+    grid-area: Themen;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 200px 200px 200px 200px; 
+    gap: 0px 0px; 
+    grid-template-areas:
+    "Natur Natur"
+    "Weltraum Weltraum"
+    "Fantasie Fantasie"
+    "Tiere Tiere";
+}
+
+.Natur{
+    grid-area: Natur;
+}
+.Weltraum{
+    grid-area: Weltraum;
+}
+.Fantasie{
+    grid-area: Fantasie;
+}
+.Tiere{
+    grid-area: Tiere;
+}
+
+.Bilder{
+grid-area: Pic;
+display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 300px 300px 300px 300px 300px 300px; 
+    gap: 0px 0px; 
+    grid-template-areas:
+    "Pic1 Pic1"
+    "Pic2 Pic2"
+    "Pic3 Pic3"
+    "Pic4 Pic4"
+    "Pic5 Pic5"
+    "Pic6 Pic6";
+}
+
+.ChoiceA{
+    grid-area: Pic1;
+    background-color: gray;
+}
+.ChoiceB{
+    grid-area: Pic2;
+}
+.ChoiceC{
+    grid-area: Pic3;
+    background-color: gray;
+}
+ChoiceD{
+    grid-area: Pic4;
+}
+
+ChoiceE{
+    grid-area: Pic5;
+    background-color: gray;
+}
+
+ChoiceF{
+    grid-area: Pic6;
+}
