@@ -133,7 +133,7 @@
 
  @media (max-width: 800px) {
 
-      .wrapper{
+      body{
         background-image: url("Pictures/forestmobile.jpeg");
       }
 
