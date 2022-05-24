@@ -11,23 +11,34 @@
     font-family: 'Fredoka', sans-serif;
  }
 
+ body{
+   background-image: url("Pictures/forestdesktop.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+ }
+ 
 .wrapper{
     display: grid;
-    background-image: url("Pictures/forestdesktop.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    height: 100%;
 }
 
  header{
     background-color: black;
-    color: white;
-    font-size: 2.5em;
     padding-left: 1%;
     padding-right: 100%;
     padding-top: 1%;
     padding-bottom: 1%
  }
+
+.Logo{
+   border-radius: 15px;
+   margin: 0.2em;
+}
+
+.Logo:hover{
+   cursor: pointer;
+}
 
 .MainGrid-Item{
     display: grid;
@@ -124,6 +135,10 @@
 
       .wrapper{
         background-image: url("Pictures/forestmobile.jpeg");
+      }
+
+      .Logo{
+      height: 3em;
       }
 
       .PageTitle{
