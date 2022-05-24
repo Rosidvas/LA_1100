@@ -116,3 +116,54 @@
     font-size: 1.5em;
     padding-top: 1.4em;
  }
+
+ @media (max-width: 800px) {
+
+      .PageTitle{
+         font-size: 3em;
+      }
+ 
+      .Introduction{
+         padding-top: 1em;
+         font-size: 1.2em;
+         margin-bottom: 1em;
+      }
+
+      .Person{
+         display: grid;
+         grid-template-rows: auto;
+         grid-template-columns: 2fr;
+      }
+
+      .Overview{
+         border-right: 0;
+         border-bottom: 0.01em solid white;
+         padding-right: 0em;;
+      }
+
+      .Name
+      {
+         text-align: center;
+         font-size: 1.2em;
+         margin-bottom: 1em;
+      }
+      .Picture{
+         width: 75%;
+         height: auto;
+         margin-left: 12.5%;
+         margin-right: 12.5%;
+      }
+
+      .PersonText
+      {
+         padding-top: 1em;
+         padding-left: 0.8em;
+         text-align: center;
+         font-size: 0.9em;
+      }
+
+      .PersonTitle
+      {
+         text-align: center;
+      }
+ }
