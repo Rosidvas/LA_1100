@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
-
-* { 
+*{ 
     margin: 0; 
     padding: 0; 
     border: 0; 
@@ -12,7 +10,7 @@
  }
 
  body{
-   background-image: url("Pictures/forestdesktop.jpg");
+   background-image: url("https://github.com/Rosidvas/LA_1100/blob/main/AboutUs/Pictures/forestdesktop.jpg?raw=true");
    background-attachment: fixed;
    background-repeat: no-repeat;
    background-size: 100% 100%;
@@ -131,10 +129,10 @@
     padding-top: 1.4em;
  }
 
- @media (max-width: 800px) {
+ @media (max-width: 990px) {
 
       body{
-        background-image: url("Pictures/forestmobile.jpeg");
+        background-image: url("https://github.com/Rosidvas/LA_1100/blob/main/AboutUs/Pictures/forestmobile.jpeg?raw=true");
       }
 
       .Logo{
