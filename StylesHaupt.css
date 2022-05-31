@@ -90,6 +90,11 @@ button{
     grid-area: Footer;
     background-color: black ;
     color: white;
+    padding-left: 1.5em;
+    font-size: 1.5em;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    margin-top: 3%;
 }
 
 .Themen{
@@ -202,7 +207,7 @@ ul {
         margin: 0px, 0px;
         display: grid; 
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-        grid-template-rows: 200px 210px 300px 300px 300px 300px; 
+        grid-template-rows: 200px 210px 300px 300px 300px 6em; 
         gap: 10px 10px; 
         grid-template-areas: 
         "Header Header Header Header Header"
@@ -253,5 +258,15 @@ ul {
         padding-top: 77px;
         padding-left: 175px;
       }
+      .Footer{
+        grid-area: Footer;
+        background-color: black ;
+        color: white;
+        padding-left: 1.5em;
+        font-size: 1.5em;
+        padding-top: 1.4em;
+        padding-bottom: 1.4em;
+        margin-top: 3%;
+    }
       
 }
