@@ -10,7 +10,7 @@
  }
 
  body{
-   background-image: url("https://github.com/Rosidvas/LA_1100/blob/main/AboutUs/Pictures/forestdesktop.jpg?raw=true");
+   background-image: url("https://images.pexels.com/photos/163703/woods-landscape-road-loyalsock-state-forest-163703.jpeg?auto=compress&cs=tinysrgb&w=1600");
    background-attachment: fixed;
    background-repeat: no-repeat;
    background-size: 100% 100%;
@@ -22,6 +22,8 @@
 }
 
  header{
+   position: sticky;
+   top: 0;
     background-color: black;
     padding-left: 1%;
     padding-right: 100%;
@@ -132,7 +134,7 @@
  @media (max-width: 990px) {
 
       body{
-        background-image: url("https://github.com/Rosidvas/LA_1100/blob/main/AboutUs/Pictures/forestmobile.jpeg?raw=true");
+        background-image: url("https://images.pexels.com/photos/70365/forest-sunbeams-trees-sunlight-70365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
       }
 
       .Logo{
